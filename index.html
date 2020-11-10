@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Event Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="mainBody">
+      <h1 id="title">Event Survey Form</h1>
+      <p id="description">Help Us Know How The Event Will Be.</p>
+
+      <div id="body">
+        <form id="survey-form">
+
+
+          <label id="name-label" >
+            <p>Name:</p>
+          </label>
+         <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+
+         <label id="email-label" >
+           <p>Email:</p>
+         </label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+
+
+        <label id="contact-label" >
+          <p>Phone:</p>
+        </label>
+       <input type="number" name="contact" id="contact" placeholder="Phone line" required>
+
+
+       <label id="location-label" >
+         <p>Residence:</p>
+       </label>
+      <input type="text" name="location" id="location" placeholder="Residence" required>
+
+<br><br><br>
+      <p>1. Will you be attending the event?</p>
+      <input type="radio" name="attending"  id="attending" value="1">Yes</input><br>
+      <input type="radio" name="attending"  id="attending" value="2">No</input><br><br><br>
+
+      <p>2. If you will not be attending the event. please explain why.</p>
+      <textarea name="reason" id="reason" rows="2" cols="40"></textarea><br><br><br>
+
+      <p>3.How did you hear about this event?.</p>
+      <textarea name="hear" id="hear" rows="2" cols="40"></textarea><br><br><br>
+
+      <p>4.Do you have any dietary restrictions?</p>
+      <textarea name="dietary" id="dietary" rows="2" cols="40"></textarea><br><br><br>
+
+      <p>5.What topics would you most like to learn about or discuss at this event?</p>
+      <textarea name="learn" rows="2" cols="40"></textarea><br><br><br>
+
+
+      <p>6. Are there aby questions you would like to be addressed at this event?</p>
+        <textarea name="address" id="address" rows="2" cols="40"></textarea><br><br><br>
+
+
+       <p>7.How would you like to receive additional information about the event.?</p>
+       <input type="radio" name="receive" value="1" id="receive">Phone Call</input><br>
+       <input type="radio" name="receive" value="2" id="receive">Text</input><br>
+       <input type="radio" name="receive" value="3" id="receive">Email</input><br>
+
+       <p>Include phone numbers or email address</p>
+       <textarea name="additional" rows="2" cols="40" id="additional"></textarea>
+       <br><br><br><br><br><br><br><br>
+       <input type="submit" name="submit" id="submit">
+        </form>
+
+      </div>
+    </div>
+
+
+  </body>
+</html>
